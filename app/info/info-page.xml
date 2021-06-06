@@ -1,0 +1,49 @@
+<Page
+    loaded="onLoaded" 
+    navigatingTo="onNavigatingTo" 
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar>
+        <NavigationButton tap="onBackButtonTap" android.systemIcon="ic_menu_back"/>
+        <Label text="RULES"></Label>
+    </ActionBar>
+
+    <ScrollView orientation="vertical">
+        <GridLayout rows="10,auto,auto,auto,auto,auto,auto,*" marginRight="20" marginLeft="20" paddingBottom="50">
+            
+            <Label text="How to write valid whatsapp number?" row="1" fontSize="35" textWrap="true" />
+
+            <Label text="FORMAT FOR WRITING WHATSAPP NUMBER" row="2" color="#795548" fontSize="20" marginTop="20" textWrap="true" />
+            <StackLayout row="3" marginLeft="10">
+                <Label text="> FORMAT" color="#5D4037" marginTop="5" fontSize="17" />
+                <Label text="Country Code + National Number" color="#9E9E9E" marginLeft="5" fontSize="14" />
+                <Label text="> EXAMPLE" color="#5D4037" marginTop="5" fontSize="17" />
+                <Label text="628001112223" color="#9E9E9E" marginLeft="5" fontSize="14" />
+                <Label text="> EXPLANATION" color="#5D4037" marginTop="5" fontSize="17" />
+                <Label text="62 is a Country Code" color="#9E9E9E" marginLeft="5" fontSize="14" />
+                <Label text="8001112223 is a National Number" color="#9E9E9E" marginLeft="5" fontSize="14" />
+                <Label text="Lastly, don't use spaces and special character / symbols" color="#9E9E9E" marginLeft="5" fontSize="14" />
+            </StackLayout>
+
+            <Label text="VALID FORMAT" row="4" color="#4CAF50" fontSize="20" marginTop="15" textWrap="true" />
+            <StackLayout row="5" marginLeft="10">
+                <Label text="628001112223" color="#9E9E9E" fontSize="14" marginTop="5" />
+                <Label text="498001112223" color="#9E9E9E" fontSize="14" marginTop="5" />
+                <Label text="348001112223" color="#9E9E9E" fontSize="14" marginTop="5" />
+                <Label text="908001112223" color="#9E9E9E" fontSize="14" marginTop="5" />
+            </StackLayout>
+            
+            <Label text="INVALID FORMAT" row="6" color="#f44336" fontSize="20" marginTop="15" textWrap="true" />
+            <StackLayout row="7" marginLeft="10">
+                <Label text="08001112223 (don't use country code)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
+                <Label text="+498001112223 (don't use special character +)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
+                <Label text="080-011-122-233 (don't use country code and don't use special character -)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
+                <Label text="+908-001-112-223 (don't use special character - and +)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
+                <Label text="0800-1112-2233 (don't use country code and don't use special character -)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
+                <Label text="0800 1112 2233 (don't use country code and don't use spaces)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
+                <Label text="90800 1112 2233 (don't use spaces)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
+            </StackLayout>
+            
+        </GridLayout>
+    </ScrollView>
+</Page>

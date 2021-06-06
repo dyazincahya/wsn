@@ -1,0 +1,76 @@
+@import "~@nativescript/theme/core";
+@import "~@nativescript/theme/grey";
+
+// Place any CSS rules you want to apply on both iOS and Android here.
+// This is where the vast majority of your CSS code goes.
+
+// Font icon class
+.fab {
+    font-family: "Font Awesome 5 Brands", "fa-brands-400";
+    font-weight: 400;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900";
+    font-weight: 900;
+}
+
+.far {
+    font-family: "Font Awesome 5 Free", "fa-regular-400";
+    font-weight: 400;
+}
+
+// Custom tabstrip item class
+.navigation__item {
+    &:active,
+    &:active Label {
+        @include colorize($contrasted-color: complementary background 20% 0%);
+    }
+}
+
+// Common page class
+.page__content {
+    &-icon,
+    &-placeholder {
+        color: const(grey);
+        font-size: 20;
+        vertical-align: center;
+        horizontal-align: center;
+    }
+
+    &-icon {
+        font-size: 72;
+        vertical-align: top;
+        margin-top: 20%;
+    }
+}
+
+.icon-logo {
+  font-size: 100;
+  color: #00e676;
+  margin-bottom: 15;
+}
+
+.label-title {
+  font-size: 15;
+  color: #616161;
+  text-transform: uppercase;
+}
+
+.input-number {
+  border-width: 3;
+  border-color: #E0E0E0;
+  placeholder-color: #BDBDBD;
+  padding: 20;
+  color: #424242;
+  border-radius: 30;
+  font-size: 24;
+}
+
+.btn-whatsapp {
+  height: 60;
+  color: #000;
+  border-radius: 30;
+  text-transform: uppercase;
+  background-color: #00E676;
+}

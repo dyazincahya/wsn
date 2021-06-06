@@ -1,0 +1,29 @@
+{
+  "nativescript": {
+    "id": "com.kang.cahya.wsn",
+    "tns-android": {
+      "version": "6.5.0"
+    },
+    "tns-ios": {
+      "version": "6.5.0"
+    }
+  },
+  "description": "send message whatsapp without save the number",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "repository": "<fill-your-repository-here>",
+  "scripts": {
+    "lint": "eslint \"app/**/*.js\""
+  },
+  "dependencies": {
+    "@nativescript/theme": "~2.3.0",
+    "tns-core-modules": "~6.5.0"
+  },
+  "devDependencies": {
+    "eslint": "~5.8.0",
+    "nativescript-dev-webpack": "~1.5.0",
+    "node-sass": "^4.7.1"
+  },
+  "gitHead": "20a65d338ae8f8911087ab6615b89363f864b07b",
+  "readme": "NativeScript Application",
+  "author": "kang cahya"
+}

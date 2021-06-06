@@ -1,0 +1,28 @@
+<BottomNavigation>
+    <TabStrip>
+        <TabStripItem class="navigation__item">
+            <Label text="Start" />
+            <Image src="font://&#xf17b;" class="fab t-36" />
+        </TabStripItem>
+        <TabStripItem class="navigation__item">
+            <Label text="History" />
+            <Image src="font://&#xf1da;" class="fas t-36" />
+        </TabStripItem>
+        <!-- <TabStripItem class="navigation__item">
+            <Label text="Search" />
+            <Image src="font://&#xf002;" class="fas t-36" />
+        </TabStripItem> -->
+    </TabStrip>
+
+    <TabContentItem>
+        <Frame defaultPage="home/home-page" />
+    </TabContentItem>
+
+    <TabContentItem>
+        <Frame defaultPage="history/history-page" />
+    </TabContentItem>
+
+    <!-- <TabContentItem>
+        <Frame defaultPage="search/search-page" />
+    </TabContentItem> -->
+</BottomNavigation>
