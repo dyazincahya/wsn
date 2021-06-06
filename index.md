@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+<link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/icon.png">
+<img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/1024%20x%20500.png" width="1080">
 
-You can use the [editor on GitHub](https://github.com/dyazincahya/wsn/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K02WIPN)
+# WSN
+Android Apps for Send message whatsapp Without Save The Number.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Downloa APK (latest v1.0)
+- [Download APK WSN (via Github)](https://github.com/dyazincahya/wsn/releases/download/v1.0/wsn-v1.0.apk)
+- [Download APK WSN (via Playstore)](https://play.google.com/store/apps/details?id=com.kang.cahya.wsn)
 
-### Markdown
+### Screenshoot
+<img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/1.png" width="200"> <img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/2.png" width="200"> <img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/3.png" width="200"> <img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/4.png" width="200"> <img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/5.png" width="200">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Requirement To Install
+- NodeJS v12.16.1
+- NPM v6.14.1
+- Nativescript v6.8.0
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### How to run?
+First install all dependecies in ```package.json``` with run this command
+``` bash
+npm install
+```
+#### andorid
+``` bash
+tns run android
+```
+#### ios
+``` bash
+tns run ios
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### How to build?
+First install all dependecies in ```package.json``` with run this command
+``` bash
+npm install
+```
+#### andorid
+``` bash
+tns build android
+```
+#### ios
+``` bash
+tns build ios
+```
 
-### Jekyll Themes
+### Credit
+- [Font Icon - Fontawesome](https://fontawesome.com/)
+- [Icon - Flaticon](https://www.flaticon.com/)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dyazincahya/wsn/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Author
+[kang-cahya.com](https://www.kang-cahya.com/)
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### License 
+[MIT License](https://github.com/dyazincahya/wsn/blob/main/LICENSE)
