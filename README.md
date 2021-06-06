@@ -6,8 +6,8 @@
 Android Apps for Send message whatsapp Without Save The Number.
 
 ### Downloa APK (latest v1.0)
-- [Download APK WSN (via Github)](https://github.com/dyazincahya/ktp-checker-android/releases/download/v1.4/ktp-checker-v1.4.apk)
-- [Download APK WSN (via Playstore)](https://play.google.com/store/apps/details?id=com.kang.cahya.KtpChecker)
+- [Download APK WSN (via Github)](https://github.com/dyazincahya/wsn/releases/download/v1.0/wsn-v1.0.apk)
+- [Download APK WSN (via Playstore)](https://play.google.com/store/apps/details?id=com.kang.cahya.wsn)
 
 ### Screenshoot
 <img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/1.png" width="200"> <img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/2.png" width="200"> <img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/3.png" width="200"> <img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/4.png" width="200"> <img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/5.png" width="200">
