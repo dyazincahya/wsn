@@ -1,25 +1,21 @@
-# wsn
-Send message whatsapp Without Save The Number
-
-
-<link rel="shortcut icon" type="image/x-icon" href="https://github.com/dyazincahya/ktp-checker-android/raw/main/screenshot/icon.png">
-<img src="https://github.com/dyazincahya/ktp-checker-android/raw/main/screenshot/banner.png" width="1080">
+<link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/icon.png">
+<img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/1024%20x%20500.png" width="1080">
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K02WIPN)
 # WSN
 Android Apps for Send message whatsapp Without Save The Number.
 
-### Downloa APK (latest v1.4)
-- [Download APK KTP-Checker (via Github)](https://github.com/dyazincahya/ktp-checker-android/releases/download/v1.4/ktp-checker-v1.4.apk)
-- [Download APK KTP-Checker (via Playstore)](https://play.google.com/store/apps/details?id=com.kang.cahya.KtpChecker)
+### Downloa APK (latest v1.0)
+- [Download APK WSN (via Github)](https://github.com/dyazincahya/ktp-checker-android/releases/download/v1.4/ktp-checker-v1.4.apk)
+- [Download APK WSN (via Playstore)](https://play.google.com/store/apps/details?id=com.kang.cahya.KtpChecker)
 
 ### Screenshoot
-<img src="https://github.com/dyazincahya/ktp-checker-android/raw/main/screenshot/1.png" width="200"> <img src="https://github.com/dyazincahya/ktp-checker-android/raw/main/screenshot/2.png" width="200"> <img src="https://github.com/dyazincahya/ktp-checker-android/raw/main/screenshot/3.png" width="200"> <img src="https://github.com/dyazincahya/ktp-checker-android/raw/main/screenshot/4.png" width="200"> <img src="https://github.com/dyazincahya/ktp-checker-android/raw/main/screenshot/5.png" width="200"> <img src="https://github.com/dyazincahya/ktp-checker-android/raw/main/screenshot/6.png" width="200"> <img src="https://github.com/dyazincahya/ktp-checker-android/raw/main/screenshot/7.png" width="200"> <img src="https://github.com/dyazincahya/ktp-checker-android/raw/main/screenshot/8.png" width="200">
+<img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/1.png" width="200"> <img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/2.png" width="200"> <img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/3.png" width="200"> <img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/4.png" width="200"> <img src="https://raw.githubusercontent.com/dyazincahya/wsn/main/playstore-assets/screen%20capture/5.png" width="200">
 
 ### Requirement To Install
 - NodeJS v12.16.1
 - NPM v6.14.1
-- Nativescript v6.5.1
+- Nativescript v6.8.0
 
 ### How to run?
 First install all dependecies in ```package.json``` with run this command
@@ -50,8 +46,6 @@ tns build ios
 ```
 
 ### Credit
-- [Library NIK Parser - Ican Bachors](https://github.com/bachors/nik_parse.js)
-- [Local storage array for Nativescript](https://github.com/dyazincahya/local-storage-array-nativescript)
 - [Font Icon - Fontawesome](https://fontawesome.com/)
 - [Icon - Flaticon](https://www.flaticon.com/)
 
@@ -59,4 +53,4 @@ tns build ios
 [kang-cahya.com](https://www.kang-cahya.com/)
 
 ### License 
-[MIT License](https://github.com/dyazincahya/ktp-checker-android/blob/main/LICENSE)
+[MIT License](https://github.com/dyazincahya/wsn/blob/main/LICENSE)
