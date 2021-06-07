@@ -35,12 +35,12 @@
             
             <Label text="INVALID FORMAT" row="6" color="#f44336" fontSize="20" marginTop="15" textWrap="true" />
             <StackLayout row="7" marginLeft="10">
-                <Label text="08001112223 (don't use country code)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
+                <Label text="08001112223 (not use country code)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
                 <Label text="+498001112223 (don't use special character +)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
-                <Label text="080-011-122-233 (don't use country code and don't use special character -)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
+                <Label text="080-011-122-233 (not use country code and don't use special character -)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
                 <Label text="+908-001-112-223 (don't use special character - and +)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
-                <Label text="0800-1112-2233 (don't use country code and don't use special character -)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
-                <Label text="0800 1112 2233 (don't use country code and don't use spaces)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
+                <Label text="0800-1112-2233 (not use country code and don't use special character -)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
+                <Label text="0800 1112 2233 (not use country code and don't use spaces)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
                 <Label text="90800 1112 2233 (don't use spaces)" color="#9E9E9E" fontSize="14" textWrap="true" marginTop="5" />
             </StackLayout>
             
