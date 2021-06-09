@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@nativescript/theme": "~2.3.0",
+    "@nstudio/nativescript-snackbar": "^1.1.2",
     "tns-core-modules": "~6.5.0"
   },
   "devDependencies": {

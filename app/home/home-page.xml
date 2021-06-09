@@ -4,11 +4,21 @@
     navigatingTo="onNavigatingTo" 
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
-    <GridLayout rows="20,*,auto,auto,30,auto,auto,auto,*,30" marginRight="20" marginLeft="20">
-        <Image src="res://logo" stretch="aspectFill" row="2" textAlignment="center" loadMode="async" />
-        <Label text="Send message whatsapp without save the number" textWrap="true" class="label-title" textAlignment="center" row="3" />
-        <TextField hint="Whatsapp Number" class="input-number" keyboardType="phone" text="{{ phone_number }}" maxLength="25" row="5" />
-        <Label text="How to write valid whatsapp number?" tap="infoTap" textWrap="true" textAlignment="center" row="6" fontSize="15" color="#f44336" paddingTop="10" paddingBottom="20" />
-        <Button text="Start to send message" class="btn-whatsapp" row="7" tap="openApps" />
-    </GridLayout>
+    <StackLayout height="100%" width="100%">
+        <GridLayout rows="20,*,auto,auto,auto,30,auto,auto,auto,*,50" marginRight="10" marginLeft="10" visibility="{{ setup ? 'visible' : 'collapsed' }}">
+            <GridLayout columns="*,auto" row="2" tap="setup">
+                <Label text="{{ configFlag }}" fontSize="22" background="#E8F5E9" padding="8" borderRadius="50%" marginTop="5" col="1" />
+            </GridLayout>
+            <Image src="res://logo" height="50%" row="3" textAlignment="center" loadMode="async" />
+            <Label text="Send message whatsapp without save the number" textWrap="true" class="label-title" textAlignment="center" row="4" />
+            <TextField hint="{{ hint_text }}" class="input-number" keyboardType="phone" text="{{ phone_number }}" textAlignment="center" maxLength="25" row="6" />
+            <Label text="How to write valid whatsapp number?" tap="infoTap" textWrap="true" textAlignment="center" row="7" fontSize="15" color="#f44336" paddingTop="10" paddingBottom="20" />
+            <Button text="Start to send message" class="btn-whatsapp" row="8" tap="openApps" />
+        </GridLayout>
+        <GridLayout rows="20,*,auto,auto,30,auto,auto,auto,*,30" marginRight="20" marginLeft="20" visibility="{{ !setup ? 'visible' : 'collapsed' }}">
+            <Image src="res://logo" stretch="aspectFill" row="2" textAlignment="center" loadMode="async" />
+            <Label text="Send message whatsapp without save the number" textWrap="true" class="label-title" textAlignment="center" row="3" />
+            <Button text="Setup Now" class="btn-whatsapp" row="7" tap="setup" />
+        </GridLayout>
+    </StackLayout>
 </Page>
