@@ -5,7 +5,7 @@
 # WSN
 Android Apps for Send message whatsapp Without Save The Number.
 
-### Downloa APK (latest v1.0.1)
+### Downloa APK (latest v1.5.0)
 - [Download APK WSN (via Github)](https://github.com/dyazincahya/wsn/releases/download/v1.5.0/wsn-v1.5.0.apk)
 - [Download APK WSN (via Playstore)](https://play.google.com/store/apps/details?id=com.kang.cahya.wsn)
 
